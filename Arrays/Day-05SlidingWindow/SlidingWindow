@@ -1,0 +1,20 @@
+Sliding Window is used when the problem asks about:
+
+Subarray / Substring
+
+Contiguous elements
+
+Maximum / Minimum / Count / Sum within a range
+
+Instead of recalculating again and again (❌ O(n²)),
+we slide a window over the array/string (✅ O(n)).
+
+-TYPES OF SLIDING WINDOW:
+
+1️⃣Fixed Size Sliding Window
+Window size = constant (k)
+Example: Maximum Sum Subarray of Size k
+
+2️⃣ Variable Size Sliding Window
+Window size changes based on condition.
+Example: Smallest Subarray with Sum ≥ S
