@@ -1,2 +1,2 @@
 #Arrays
-Daily arrat practice with patterns
+Daily array practice with patterns
