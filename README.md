@@ -8,6 +8,7 @@ Python-based repository for daily **Data Structures and Algorithms** practice.
 - Stack (LeetCode problems)
 - Strings (Basic problems)
 - Algorithms (Traversal, LeetCode problems)
+- sliding windows 
 
 ## 🎯 Goal
 Improve problem-solving skills and prepare for coding interviews using Python.
