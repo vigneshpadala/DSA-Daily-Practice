@@ -42,7 +42,7 @@ arr=[0,1,2,3,4]
 print(const_time_example(arr))
 #Linear_time_complexity:
 print(linear_time_example(arr))
-#Quadratic_time_complexity
+#Quadratic_time_complexity:
 print(quadratic_time_example(arr))
 #Logarithmic_time_complexity:
 target=3
