@@ -38,10 +38,15 @@ def exponential_time_example(n):
     return exponential_time_example(n-1)+exponential_time_example(n-2)
 
 arr=[0,1,2,3,4]
+#Const_time_complexity:
 print(const_time_example(arr))
+#Linear_time_complexity:
 print(linear_time_example(arr))
+#Quadratic_time_complexity
 print(quadratic_time_example(arr))
+#Logarithmic_time_complexity:
 target=3
 print(logarithmic_time_example(arr,target))
+#Exponential_time_complexity:
 n=5
 print(exponential_time_example(n))
