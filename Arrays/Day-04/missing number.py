@@ -11,3 +11,13 @@ def brute(arr):
     
 arr=[1,0,2,3,5]
 print(brute(arr))
+
+# optimal
+def optimal(arr):
+    n=len(arr)
+    exp_sum = n * ( n + 1) // 2
+    actual_sum=sum(arr)
+    return exp_sum - actual_sum
+    
+arr=[1,0,2,3,5]
+print(optimal(arr))
