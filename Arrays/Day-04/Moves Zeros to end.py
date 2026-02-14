@@ -14,3 +14,17 @@ def brute(arr):
 arr=[1,0,2,0,3,4,5]
 print(brute(arr))
 
+# optimal
+def optimal(arr):
+    l=0
+    r=len(arr)-1
+    while(l<=r):
+        if arr[l]!=0:
+            l+=1
+        else:
+            arr[l],arr[r]=arr[r],arr[l]
+            r-=1
+    return arr
+    
+arr=[1,0,2,0,3,4,5,0,0,0]
+print(optimal(arr))
