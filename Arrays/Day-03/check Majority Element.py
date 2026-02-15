@@ -4,7 +4,21 @@ def majorityElement(arr):
         if arr.count(x) > len(arr) // 2:
             return x
 
-arr=[3,2,3,3,2,2,1,1,1,1]
+arr=[3,2,3]
 print(majorityElement(arr))
 
 # optimal
+def majorityElement(arr):
+    count=0
+    x=None
+    for num in arr:
+        if count ==0:
+            x=num
+        if num==x:
+           count+=1
+        else:
+            count-=1
+    return x
+
+arr=[3,2,3]
+print(majorityElement(arr))
