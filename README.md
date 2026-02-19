@@ -7,7 +7,7 @@ Python-based repository for daily **Data Structures and Algorithms** practice.
 - Linked List (Basics + LeetCode)
 - Stack (LeetCode problems)
 - Strings (Basic problems)
-- Algorithms (Traversal, LeetCode problems)
+
  
 
 ## 🎯 Goal
